@@ -1,0 +1,274 @@
+.main{
+    /* background-color: rgb(111, 217, 255) !important; */
+    /* width: 100vw; */
+    /* height: 100vh; */
+    display: flex;
+
+    transition: all 0.4;
+}
+
+.main .leftside{
+    background-color: #C3D5ED !important;
+    width: 25%;
+    padding: 20px;
+}
+.main .leftside img {
+    width: 240px;
+    height: 230px;
+    border-radius: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgDiv{
+   background-color: white !important;
+   border-radius:50vw ;
+   width: 240px;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 100;
+
+}
+.main .rightside{
+    background-color: rgb(111, 217, 255) !important;
+
+    width: 75%;
+   
+}
+.imgDivMain{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contactDiv{
+    padding:16px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactDiv p{
+    margin: 5px;
+    font-weight: 600;
+}
+.contactDiv p span{
+    font-size: 26px;
+    margin-top:-10px;
+    font-weight: 800 !important;
+}
+
+.contactDiv h1{
+    margin:10px 0px;
+}
+
+.medialinks{
+    padding:10px 16px;
+}
+.medialinks .btn{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.medialinks a{
+    
+    text-decoration: none;
+    font-size: 20px;
+    margin:20px 5px;
+    padding: 10px;
+    font-weight: 600;
+    background-color: rgb(111, 217, 255);
+    transition: 0.5s;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.aboutmeDiv{
+    padding: 10px;
+}
+
+.aboutmeDiv p{
+    margin: 5px;
+    font-weight: 600;
+    font-size: 19px;
+    word-spacing:4px;
+}
+
+.aboutmeDiv h1{
+    text-transform: uppercase;
+    /* background-color: aquamarine; */
+    margin:10px 0px;
+    padding: 10px;
+    border-bottom: 3px solid rgb(218, 35, 35);
+    font-weight: 800;
+    word-spacing:4px;
+    font-size: 35px;
+    color: rgb(111, 217, 255)!   
+
+}
+
+.exp{
+    padding: 10px;
+
+}
+
+.exp h1{
+    margin:10px 0px;
+    padding: 10px;
+    border-bottom: 3px solid rgb(218, 35, 35);
+    font-weight: 800;
+    word-spacing:4px;
+    font-size: 35px;
+    color: rgb(111, 217, 255)!   
+
+}
+
+.exp p{
+    padding: 3px;
+    margin: 5px;
+    font-weight: 600;
+    font-size: 19px;
+    word-spacing:4px;
+    text-decoration: underline;
+}
+
+.education{
+    /* padding: 10px; */
+}
+
+.education h1{
+   
+    margin:10px;
+
+    text-transform: uppercase;
+    border-bottom: 3px solid rgb(218, 35, 35);
+    font-weight: 800;
+    word-spacing:4px;
+    font-size: 35px;
+    color: rgb(111, 217, 255)!   
+}
+
+
+.education p{
+    
+    padding: 7px;
+    font-weight: 600;
+    font-size: 19px;
+    word-spacing:4px;
+    text-decoration: underline;
+}
+
+.education span{
+    font-size: 19px;
+    font-weight: 600;
+    word-spacing:4px;
+    line-height: 20px;
+    margin: 40px 0px !important;
+    padding: 10px;
+}
+
+.skills{
+    padding: 10px;
+}
+
+.skills h1{
+    margin:10px;
+    text-transform: uppercase;
+    border-bottom: 3px solid rgb(218, 35, 35);
+    font-weight: 800;
+    word-spacing:4px;
+    font-size: 35px;
+    color: rgb(111, 217, 255)!
+
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    padding: 7px;
+    font-weight: 600;
+    font-size: 19px;
+    word-spacing:4px;
+    text-decoration: underline;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+   
+    padding: 13px;
+    font-size: 25px;
+  }
+
+
+
+
+
+
+
+
+
+@media (max-width:800px) {
+
+    .main{
+        display: block;
+    }
+    .main .leftside{
+        background-color: aqua !important;
+       
+        width: 100vw;
+
+        text-align: center;
+    }
+    
+    .main .rightside{
+        background-color: palegreen !important;
+        width: 106.5vw;
+        text-align: center;
+
+       
+    }
+    
+    
+}
+
+@media (max-width:935px) {
+
+   .leftside{
+    text-align: center;
+   }
+
+   .rightside{
+    text-align: center;
+   }
+
+}
+
+@media (max-width:520px) {
+/* 
+    .leftside{
+        width: 107.3;
+    } */
+ 
+    .rightside{
+        width: 109.3vw;
+
+    }
+ 
+ }
